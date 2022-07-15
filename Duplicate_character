@@ -4,5 +4,5 @@ def letter(word):
     if char not in list:
       list.append(char)
   result=' '.join(list)
-  return result
+  print(result)
 letter('bookkepper')
