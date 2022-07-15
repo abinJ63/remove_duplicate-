@@ -1,0 +1,8 @@
+def letter(word):
+  list=[]
+  for char in word:
+    if char not in list:
+      list.append(char)
+  result=' '.join(list)
+  return result
+letter('bookkepper')
